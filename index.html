@@ -10,84 +10,96 @@
       <div class="container">
          <div class="row no-gutters mt-3">
             <div class="col-12">
-               <h1 class="display-3 font-weight-lighter text-center">
+               <p class="name display-3 font-weight-lighter text-center">
                   John Cross
-               </h1>
+               </p>
                <p class="lead mt-n2 font-weight-normal text-center">
                   Full stack developer
                </p>
+            </div>
 
-               <div
-                  class="mt-4 lead font-weight-normal d-flex justify-content-center"
-               >
+            <div
+               class="col-12 mt-4 lead font-weight-normal d-flex flex-wrap justify-content-center"
+            >
+               <div>
                   <a
                      ><img
                         width="25px"
-                        class="mb-3 mr-2"
+                        class="mb-1 ml-2 mr-2"
                         src="icon/github.svg"
                      />
 
                      <a
-                        class="lead font-weight-normal"
+                        class="lead mr-2 font-weight-normal"
                         href="https://github.com/john-william-cross"
                         >Github</a
-                     >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     >
                   </a>
+               </div>
+               <div>
                   <a
                      ><img
                         width="20px"
-                        class="mt-1 mr-2"
+                        class="mb-2 ml-2 mr-2"
                         src="icon/linkedin.svg"
                      />
 
                      <a
-                        class="lead font-weight-normal"
+                        class="lead mr-2 font-weight-normal"
                         href="https://github.com/john-william-cross"
                         >LinkedIn</a
-                     >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     >
                   </a>
+               </div>
+
+               <div>
                   <a
                      ><img
                         width="30px"
-                        class="mt-0 mr-2"
+                        class="mt-0 ml-2 mr-2"
                         src="icon/youtube.svg"
                      />
 
                      <a
-                        class="lead font-weight-normal"
+                        class="lead mr-2 font-weight-normal"
                         href="https://github.com/john-william-cross"
                         >YouTube</a
                      >
                   </a>
                </div>
             </div>
-            <div class="mt-5 col-6 offset-2">
+
+            <div class="col-xs-12 col-8 mt-5">
                <input
                   class="form-control form-control-sm"
                   type="text"
                   placeholder="Search projects"
                />
             </div>
-
-            <div class="col-3 offset-1 mt-5">
-               <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="advanced-view"
-               />
-               <label class="form-check-label" for="advanced-view"
-                  >Advanced view</label
-               >
+            <div class="col-xs-12 col-4 mt-5">
+               <div class="custom-control custom-checkbox">
+                  <input
+                     type="checkbox"
+                     class="custom-control-input"
+                     id="advanced-view"
+                  />
+                  <label
+                     class="custom-control-label float-right"
+                     for="advanced-view"
+                     >Advanced view</label
+                  >
+               </div>
             </div>
-            <div class="col-5 mt-2 offset-2 form-check form-check-inline">
+
+            <div class="mt-2 col-12 form-check form-check-inline">
                <input
                   class="form-check-input"
                   type="radio"
                   name="inlineRadioOptions"
-                  id="inlineRadio1"
-                  value="option1"
+                  id="most-recent"
+                  value="most-recent"
                />
-               <label class="form-check-label mr-3" for="inlineRadio1"
+               <label class="form-check-label mr-3" for="most-recent"
                   >Most Recent</label
                >
 
@@ -95,14 +107,14 @@
                   class="form-check-input"
                   type="radio"
                   name="inlineRadioOptions"
-                  id="inlineRadio2"
-                  value="option2"
+                  id="most-popular"
+                  value="most-popular"
                />
-               <label class="form-check-label" for="inlineRadio2"
+               <label class="form-check-label" for="most-popular"
                   >Most Popular</label
                >
             </div>
-            <div class="col-10 offset-2 mt-5">
+            <div class="mt-5">
                <h3 class="font-weight-light">
                   <a
                      href="https://www.youtube.com/watch?v=wLNF4YaMOwk&t=7s"
@@ -111,25 +123,31 @@
                   >
                </h3>
             </div>
-            <div class="col-6 offset-2 d-flex mt-2">
-               <img width="40%" src="images/validate.webp" />
-
-               <div class="col-12 ml-n1">
-                  <p>
-                     Validation of password and email fields for new-user
-                     sign-up in Ask a Teacher, following best security and UX
-                     practices
-                  </p>
-                  <p>Oct. 8, 2020</p>
-                  <img width="18px" class="mb-1 mr-1" src="icon/link.svg" />
-                  <a
-                     href
-                     src="https://github.com/john-william-cross/ask-a-teacher"
-                     >https://github.com/john-william-c...</a
-                  >
-               </div>
+            <div class="col-12 col-md-4 col-lg-4 col-xl-4 mt-2">
+               <a href="https://www.youtube.com/watch?v=wLNF4YaMOwk&t=7s"
+                  ><img width="100%" src="images/validate.webp"
+               /></a>
             </div>
-            <div class="col-10 offset-2 mt-5">
+
+            <div class="col-12 col-md-8 col-lg-8 col-xl-8">
+               <a
+                  href="https://www.youtube.com/watch?v=wLNF4YaMOwk&t=7s"
+                  class="text-decoration-none text-reset"
+               >
+                  Validation of password and email fields for new-user sign-up
+                  in Ask a Teacher, following best security and UX practices.
+                  (3min 30sec) <br />
+                  <br />
+                  Oct. 8, 2020
+               </a>
+               <br /><br />
+               <img width="18px" class="mb-1 mr-1" src="icon/link.svg" />
+               <a href src="https://github.com/john-william-cross/ask-a-teacher"
+                  >https://github.com/john-william-c...</a
+               >
+            </div>
+
+            <div class="mt-5">
                <h3 class="font-weight-light">
                   <a
                      href="https://www.youtube.com/watch?v=3N6EtIoZBRQ"
@@ -138,23 +156,28 @@
                   >
                </h3>
             </div>
-            <div class="col-6 offset-2 d-flex mt-2 mb-5">
-               <img width="40%" src="images/walkthrough.webp" />
+            <div class="col-12 col-md-4 mt-2">
+               <a href="https://www.youtube.com/watch?v=3N6EtIoZBRQ"
+                  ><img width="100%" src="images/walkthrough.webp"
+               /></a>
+            </div>
 
-               <div class="col-12 ml-n1">
-                  <p>
-                     Prototype of Ask a Teacher, an app that allows anyone to
-                     submit questions that are answered exclusively by teachers.
-                  </p>
-                  <p>Oct. 8, 2020</p>
-                  <img width="18px" class="mb-1 mr-1" src="icon/link.svg" />
-
-                  <a
-                     href
-                     src="https://github.com/john-william-cross/ask-a-teacher"
-                     >https://github.com/john-william-c...</a
-                  >
-               </div>
+            <div class="col-12 col-md-8">
+               <a
+                  href="https://www.youtube.com/watch?v=3N6EtIoZBRQ"
+                  class="text-decoration-none text-reset"
+               >
+                  Prototype of Ask a Teacher, an app that allows anyone to
+                  submit questions that are answered exclusively by teachers.
+                  (2min 47sec) <br />
+                  <br />
+                  Oct. 8, 2020
+               </a>
+               <br /><br />
+               <img width="18px" class="mb-1 mr-1" src="icon/link.svg" />
+               <a href src="https://github.com/john-william-cross/ask-a-teacher"
+                  >https://github.com/john-william-c...</a
+               >
             </div>
          </div>
       </div>

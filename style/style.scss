@@ -1,0 +1,14 @@
+// Only add responsiveness to the page title (your name)
+//you can add responsiveness to your name with a mediaquery; look at bootstrap breakpoint @includes
+// so give your name it's own class of something like this:
+
+// .title {
+// @include media-breakpoint-down(xs) {
+//     font-size: 48px;
+//   }
+//  @include media-breakpoint-only(md) {
+//
+//}
+//}
+
+//dont put anything else in this file

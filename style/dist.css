@@ -9925,5 +9925,15 @@ h3 {
     border-color: #dee2e6;
   }
 }
+@media (max-width: 575.98px) {
+  .name {
+    font-size: 48px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .name {
+    font-size: 60px !important;
+  }
+}
 
 /*# sourceMappingURL=dist.css.map */

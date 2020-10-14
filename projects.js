@@ -32,3 +32,4 @@ const projects = [
 // });
 
 // console.log(searchResults);
+ 

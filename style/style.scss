@@ -8,12 +8,9 @@
 //    }
 // }
 
-.name {
+.title {
    // font-size: 8px;
    @include media-breakpoint-only(xs) {
       font-size: 48px !important;
-   }
-   @include media-breakpoint-only(sm) {
-      font-size: 60px !important;
    }
 }
